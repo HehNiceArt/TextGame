@@ -779,7 +779,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1264995761}
         m_TargetAssemblyTypeName: Text_Game_Manager, Assembly-CSharp
-        m_MethodName: Lvl2_ignore
+        m_MethodName: Lvl2_ExploreFields
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1677,6 +1677,8 @@ MonoBehaviour:
   STA_value: 10
   Lvl1_Choices: {fileID: 1753499455}
   Lvl2_Choices: {fileID: 1679560704}
+  timeRemaining: 10
+  timeIsRunning: 0
 --- !u!4 &1264995762
 Transform:
   m_ObjectHideFlags: 0
@@ -2188,6 +2190,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1264995761}
         m_TargetAssemblyTypeName: Text_Game_Manager, Assembly-CSharp
         m_MethodName: Lvl2_ignore
+        m_MethodName: Lvl2_Ignore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2384,7 +2387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1753499456
 Transform:
   m_ObjectHideFlags: 0
