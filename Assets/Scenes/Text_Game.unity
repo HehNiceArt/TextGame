@@ -2189,7 +2189,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1264995761}
         m_TargetAssemblyTypeName: Text_Game_Manager, Assembly-CSharp
-        m_MethodName: Lvl2_ignore
         m_MethodName: Lvl2_Ignore
         m_Mode: 1
         m_Arguments:
